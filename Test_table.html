@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
+
 <h1>Моя первая html-страница</h1>
 <h2>О себе</h2>
 <p>Я учусь создавать html-страницы.</p>
-<table border="1">
-<caption>Информация</caption>
-<tr>
-<th>Фамилия</th>
-<th>Имя</th>
-<th>Возраст</th>
-</tr>
-<tr>
-<td>Шульгинов</td>
-<td>Валера</td>
-<td>39</td>
-<tr>
-<td>Иванов</td>
-<td>Петр</td>
-<td>32</td>
-</tr>
-<tr>
-<td>Константинопольский</td>
-<td>Константин</td>
-<td>29</td>
-</tr>
-</table>, <table>
-<tr>
-<td>Кронгауз</td>
-<td>Максим</td>
-<td>хороший вопрос</td>
-</tr>
+
+<table>
+    <caption>Информация</caption>
+    <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Возраст</th>
+    </tr>
+    <tr>
+        <td>Шульгинов</td>
+        <td>Валера</td>
+        <td>39</td>
+    </tr>
+    <tr>
+        <td>Иванов</td>
+        <td>Петр</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Константинопольский</td>
+        <td>Константин</td>
+        <td>29</td>
+    </tr>
 </table>
+
+<table>
+    <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Возраст</th>
+    </tr>
+    <tr>
+        <td>Кронгауз</td>
+        <td>Максим</td>
+        <td>хороший вопрос</td>
+    </tr>
+</table>
+
 </body>
 </html>
+
